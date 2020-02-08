@@ -45,7 +45,7 @@ a:hover{
     
     background-color: #FC4A1A ;
     color: black;
-    width:auto;
+    
     height: 400px;
     display: inline-block;
 }
@@ -61,8 +61,19 @@ a:hover{
 
 .about {
     background-color: #4ABDAC ;
-    display: inline-block;
     font-size: medium;
-    color: #DFDCE3;
+    color: black;
+    float: right;
+    width: 92%;
+    height: 400px;
+   
+}
+
+.about p {
+    float: left;
+    width: 68%;
+    text-align: left;
+    font-weight: bold;
+    padding: 20px;
 }
 
