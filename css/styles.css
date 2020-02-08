@@ -1,209 +1,241 @@
-body{
-    background-color: #4ABDAC;
-    display: grid;
-
-}
-.header {
-    background-color: #4ABDAC;
-    color: black;
-    display: block;
-    text-align: center;
-    padding-top: 20px;
-    border: #DFDCE3 solid;
-
-}
-
-.header img{
-    margin-left: auto;
-    margin-right: auto;
-    width: 10%;
-    height: 5%;
-}
-.socials {
+@media screen and (min-width: 768px) {
+    body{
+        background-color: #4ABDAC;
+        display: grid;
     
-    overflow: auto;
-    margin-left: auto;
-    margin-right: auto;
-    display: inline-block;
+    }
+    .header {
+        background-color: #4ABDAC;
+        color: #19292F;
+        display: block;
+        text-align: center;
+        padding-top: 20px;
+        border: #DFDCE3 solid;
         
-}
-.socials a {
-    float: left;
-    text-align: center;
-    padding: 15px ;
-    transition: all 0.3s ease;
-    color: black;
-    font-size: 20px;
-    margin-left: auto;
-    margin-right: auto;
     
-}
-
-a:hover{
-    background-color: cadetblue;
-}
-.about-me {
+    }
     
-    background-color: #FC4A1A ;
-    color: black;
-    border-style: solid;
-    border-color: #f7b733;
-    height: 400px;
-    display: inline-block;
-}
-.about-me h1 {
-
-    writing-mode: vertical-rl;
-    transform: rotate(180deg);
-    text-align: center;
-    padding-bottom: 100px;
-    width:2%;
-    float: left; 
+    .header img{
+        margin-left: auto;
+        margin-right: auto;
+        width: 10%;
+        height: 5%;
+    }
+    .socials {
+        
+        overflow: auto;
+        margin-left: auto;
+        margin-right: auto;
+        display: inline-block;
+            
+    }
+    .socials a {
+        float: left;
+        text-align: center;
+        padding: 15px ;
+        transition: all 0.3s ease;
+        color: black;
+        font-size: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
     
-}
-
-.about {
-    background-color: #4ABDAC ;
-    font-size: x-large;
-    color: black;
-    float: right;
-    width: 92%;
-    height: 400px;
-   
-}
-
-.about p {
-    float: left;
-    width: 62%;
-    text-align: justify;
-    font-weight: lighter;
-    font-family: fantasy;
-    padding: 80px;
-}
-
-.about i {
-    color: yellow;
-}
-
-.about img {
-    float: right;
-    width: 20%;
-    margin: 40px;
-    border: solid black;
+    a:hover{
+        background-color: cadetblue;
+    }
+    .about-me {
+        
+        background-color: #FC4A1A ;
+        color: black;
+        border-style: solid;
+        border-color: #f7b733;
+        height: 400px;
+        display: inline-block;
+    }
+    .about-me h1 {
     
-}
-.hobbies{
-
-    border-color: #19292F ;
-    color: black;
-    border-style: solid;
-    background-color: #f7b733;
-    height: 400px;
-    display: inline-block;
-
-}
-
-
-
-.hobbies h1{
-
-    writing-mode: vertical-rl;
-    transform: rotate(180deg);
-    text-align: center;
-    padding-bottom: 100px;
-    width:2%;
-    float: left; 
-}
-
-
-
-.hobbies-skills{
-    background-color: #4ABDAC ;
-    font-size: x-large;
-    color: black;
-    float: right;
-    width: 92%;
-    height: 400px;
+        writing-mode: vertical-rl;
+        transform: rotate(180deg);
+        text-align: center;
+        padding-bottom: 100px;
+        width:2%;
+        float: left; 
+        
+    }
+    
+    .about {
+        background-color: #4ABDAC ;
+        font-size: x-large;
+        color: black;
+        float: right;
+        width: 92%;
+        height: 400px;
+       
+    }
+    
+    .about p {
+        float: left;
+        width: 62%;
+        text-align: justify;
+        font-weight: lighter;
+        font-family: fantasy;
+        padding: 80px;
+    }
+    
+    .about i {
+        color: yellow;
+    }
+    
+    .about img {
+        float: right;
+        width: 20%;
+        margin: 40px;
+        border: solid black;
+        
+    }
+    .hobbies{
+    
+        border-color: #19292F ;
+        color: black;
+        border-style: solid;
+        background-color: #f7b733;
+        height: 400px;
+        display: inline-block;
+    
+    }
     
     
+    
+    .hobbies h1{
+    
+        writing-mode: vertical-rl;
+        transform: rotate(180deg);
+        text-align: center;
+        padding-bottom: 100px;
+        width:2%;
+        float: left; 
+    }
+    
+    
+    
+    .hobbies-skills{
+        background-color: #4ABDAC ;
+        font-size: x-large;
+        color: black;
+        float: right;
+        width: 92%;
+        height: 400px;
+        
+        
+    }
+    .hobbies-skills img{
+        width: 30%;
+        float:left;
+        margin: 40px;
+        border: solid black;
+    }
+    .list  {
+        
+    
+        width: 60%;
+        font-family: fantasy;
+        font-weight: lighter;
+        float: right;
+        
+    
+        
+        
+    }
+    ul{
+        list-style-type: symbols(arrow);
+       list-style-position: inside;
+       
+        
+    }
+    .projects {
+    
+        border-color: #FC4A1A ;
+        color: black;
+        border-style: solid;
+        background-color: #19292F;
+        height: 400px;
+        display: inline-block;
+    
+    }
+    
+    .projects h1 {
+        writing-mode: vertical-rl;
+        transform: rotate(180deg);
+        text-align: center;
+        padding-bottom: 100px;
+        width:2%;
+        float: left; 
+    
+    }
+     .proj{
+        background-color: #4ABDAC ;
+        font-size: x-large;
+        color: black;
+        float: right;
+        width: 92%;
+        height: 400px;
+    
+     }
+     .proj-list{
+        /*padding-left: 10px;*/
+        width: 60%;
+        font-family: fantasy;
+        font-weight: lighter;
+        float: left;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+        
+     }
+     
+    
+    
+     .proj img{
+        width: 30%;
+        float: right;;
+        margin: 40px;
+        border: solid black;
+     }
+     h4{
+         text-decoration: overline underline  #FC4A1A ;
+     }
+    
+     .ruth {
+         font-family: 'Franklin Gothic Medium';
+         color: #f7b733;
+         font-style: oblique;
+         text-transform: uppercase;
+    
+         
+        
+     }
+     em {
+         color: #FC4A1A;
+         font-weight: bolder;
+         
+     }
+
 }
-.hobbies-skills img{
-    width: 30%;
-    float:left;
-    margin: 40px;
-    border: solid black;
+
+
+
+ @media screen and (min-width: 480px) and (max-width: 767px) {
+    body {
+        background-color: black;
+        color: white;
+        
+    }
+    img.responsive{
+        width: 400px;
+    }
 }
-.list  {
-    
-
-    width: 60%;
-    font-family: fantasy;
-    font-weight: lighter;
-    float: right;
-    
-
-    
-    
-}
-ul{
-    list-style-type: symbols(arrow);
-   list-style-position: inside;
-   
-    
-}
-.projects {
-
-    border-color: #FC4A1A ;
-    color: black;
-    border-style: solid;
-    background-color: #19292F;
-    height: 400px;
-    display: inline-block;
-
-}
-
-.projects h1 {
-    writing-mode: vertical-rl;
-    transform: rotate(180deg);
-    text-align: center;
-    padding-bottom: 100px;
-    width:2%;
-    float: left; 
-
-}
- .proj{
-    background-color: #4ABDAC ;
-    font-size: x-large;
-    color: black;
-    float: right;
-    width: 92%;
-    height: 400px;
-
- }
- .proj-list{
-    /*padding-left: 10px;*/
-    width: 60%;
-    font-family: fantasy;
-    font-weight: lighter;
-    float: left;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    
-    
- }
- 
-
-
- .proj img{
-    width: 30%;
-    float: right;;
-    margin: 40px;
-    border: solid black;
- }
- h4{
-     text-decoration: overline underline  #FC4A1A ;
- }
 
 
 
