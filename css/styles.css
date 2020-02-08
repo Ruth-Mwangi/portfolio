@@ -9,15 +9,17 @@ body{
     text-align: center;
 
 }
+
 .header img{
     margin-left: auto;
     margin-right: auto;
 }
 .socials {
-    background-color: #555;
+    
     overflow: auto;
     margin-left: auto;
     margin-right: auto;
+    display: inline-block;
         
 }
 .socials a {
@@ -25,6 +27,13 @@ body{
     text-align: center;
     padding: 12px 0;
     transition: all 0.3s ease;
-    color: white;
-    font-size: 36px;
+    color: black;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+a:hover{
+    background-color: cadetblue;
 }
