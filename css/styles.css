@@ -1,6 +1,6 @@
 body{
-    background-color: #4ABDAC;
-    display: block;
+    /*background-color: #4ABDAC;*/
+    display: grid;
 
 }
 .header {
@@ -42,8 +42,20 @@ a:hover{
     background-color: cadetblue;
 }
 .about-me {
-    display: inline-block;
+    
     background-color: #FC4A1A ;
     color: black;
-    text-align: center;
+    width:auto;
+    height: 400px;
+    display: inline-block;
 }
+.about-me h1 {
+    /*transform: rotate(270deg);*/
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    text-align: center;
+    padding: 20px;
+    width:2%;
+    float: left; 
+}
+
