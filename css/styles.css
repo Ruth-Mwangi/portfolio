@@ -59,3 +59,10 @@ a:hover{
     float: left; 
 }
 
+.about {
+    background-color: #4ABDAC ;
+    display: inline-block;
+    font-size: medium;
+    color: #DFDCE3;
+}
+
