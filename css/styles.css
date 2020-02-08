@@ -1,18 +1,22 @@
 body{
     background-color: #4ABDAC;
     display: block;
+
 }
 .header {
     background-color: #4ABDAC;
     color: black;
     display: block;
     text-align: center;
+    padding-top: 20px;
 
 }
 
 .header img{
     margin-left: auto;
     margin-right: auto;
+    width: 10%;
+    height: 5%;
 }
 .socials {
     
@@ -25,7 +29,7 @@ body{
 .socials a {
     float: left;
     text-align: center;
-    padding: 12px 0;
+    padding: 15px ;
     transition: all 0.3s ease;
     color: black;
     font-size: 20px;
@@ -36,4 +40,10 @@ body{
 
 a:hover{
     background-color: cadetblue;
+}
+.about-me {
+    display: inline-block;
+    background-color: #FC4A1A ;
+    color: black;
+    text-align: center;
 }
