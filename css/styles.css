@@ -45,7 +45,8 @@ a:hover{
     
     background-color: #FC4A1A ;
     color: black;
-    
+    border-style: solid;
+    border-color: #f7b733;
     height: 400px;
     display: inline-block;
 }
@@ -54,14 +55,15 @@ a:hover{
     writing-mode: vertical-rl;
     transform: rotate(180deg);
     text-align: center;
-    padding: 20px;
+    padding-bottom: 100px;
     width:2%;
     float: left; 
+    
 }
 
 .about {
     background-color: #4ABDAC ;
-    font-size: medium;
+    font-size: x-large;
     color: black;
     float: right;
     width: 92%;
@@ -71,9 +73,20 @@ a:hover{
 
 .about p {
     float: left;
-    width: 68%;
-    text-align: left;
-    font-weight: bold;
-    padding: 20px;
+    width: 62%;
+    text-align: justify;
+    font-weight: lighter;
+    padding: 80px;
+}
+
+.about i {
+    color: yellow;
+}
+
+.about img {
+    float: right;
+    width: 20%;
+    
+
 }
 
